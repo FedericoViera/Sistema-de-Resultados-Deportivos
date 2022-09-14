@@ -1,0 +1,41 @@
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Reestructuracion Proyecto.exe.config
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Reestructuracion Proyecto.exe
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Reestructuracion Proyecto.pdb
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.csprojAssemblyReference.cache
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion_Proyecto.Properties.Resources.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.csproj.GenerateResource.cache
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.csproj.CopyComplete
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.exe
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion Proyecto.pdb
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._4__Presentacion.Registro.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Presentacion.Menu_Publico_Principal.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Publicitario.Eventos.Gestion_Eventos.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Publicitario.Publicidad.Gestion_Asignaciones.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Publicitario.Publicidad.Gestion_Banners.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Publicitario.Publicidad.Gestion_Imagenes.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Deportes.Gestion_Deportes.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Deportes.Gestion_Deportistas.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Deportes.Gestion_Equipos.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Deportes.Gestion_Integrantes.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Paises.Gestion_Otros.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Usuarios.Agregar_Editar_Usuarios.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Superusuario.Usuarios.Gestion_Usuarios.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Menu_Backoffice_Controles.Navegacion_Notificativo.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Menu_Backoffice_Controles.Navegacion_Publicitario.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Menu_Backoffice_Controles.Navegacion_superusuario.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Superusuario.Menu_Backoffice_Principal.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Presentacion.Login.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto.Seleccion_Aplicacion.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\Guna.UI2.dll
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\System.Data.Odbc.dll
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\System.Data.Odbc.xml
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\bin\Debug\NetComm.dll
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion_Proyecto._5__BackOffice.Funciones.Notificativo.Activar_Cuenta.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Notificativo.Baja_Cuenta.Rebocar_Cuenta.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Notificativo.Resultados.Ingresar_Resultado.Ingresar_Resultados.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Proyecto._5__BackOffice.Funciones.Notificativo.Resultados.Gestion_Eventos_Resultado.Gestion_Eventos_Resultados.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion_Proyecto._5__BackOffice.Funciones.Notificativo.Resultados.Resultados_Equipos.resources
+C:\Users\fede\Source\repos\Reestructuracion Proyecto\Reestructuracion Proyecto\obj\Debug\Reestructuracion_Proyecto._5__BackOffice.Funciones.Notificativo.Resultados.Resultados_Individuales.resources

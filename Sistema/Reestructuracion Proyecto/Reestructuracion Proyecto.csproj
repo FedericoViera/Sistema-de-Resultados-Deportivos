@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D830349-59B4-4867-B295-30B9F36F1C9E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Reestructuracion_Proyecto</RootNamespace>
+    <AssemblyName>Reestructuracion Proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Reestructuracion_Proyecto.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.4, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="NetComm">
+      <HintPath>..\..\..\..\Desktop\NetComm.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Odbc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1- Acceso a datos\Conexion.cs" />
+    <Compile Include="1- Acceso a datos\Consultas.cs" />
+    <Compile Include="1- Acceso a datos\Sentencias.cs" />
+    <Compile Include="2- Logica\Cache\CacheUsuario.cs" />
+    <Compile Include="2- Logica\Cliente\ClienteNotificativo.cs" />
+    <Compile Include="2- Logica\Controlador.cs" />
+    <Compile Include="2- Logica\Dominio\Dominio.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Banners.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Campeonatos.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Categoria_disciplina.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Deportistas.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Disciplinas.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Empresas.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Encuentros.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Equipos.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Eventos.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Imagenes.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\ImagenesAsociadas.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Modalidades.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Paises.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Partidos.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Posiciones_pantalla.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Puntua.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Servidores.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Sets_Rounds.cs" />
+    <Compile Include="2- Logica\Dominio\Entidades\Tiempos.cs" />
+    <Compile Include="2- Logica\Miscelaneos\Convertir_A_DataTable.cs" />
+    <Compile Include="2- Logica\Miscelaneos\Obtener_Id_Objecto.cs" />
+    <Compile Include="3- APIs\APILogin.cs" />
+    <Compile Include="3- APIs\APIResultados.cs" />
+    <Compile Include="4- Presentacion\Cache\CacheUsuarioPresentacion.cs" />
+    <Compile Include="4- Presentacion\ClientePresentacion\ClientePresentacion.cs" />
+    <Compile Include="4- Presentacion\Funciones\Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4- Presentacion\Funciones\Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4- Presentacion\Menu_Publico_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4- Presentacion\Menu_Publico_Principal.Designer.cs">
+      <DependentUpon>Menu_Publico_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Cuentas\Activar_Cuenta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Cuentas\Activar_Cuenta.Designer.cs">
+      <DependentUpon>Activar_Cuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Cuentas\Rebocar_Cuenta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Cuentas\Rebocar_Cuenta.Designer.cs">
+      <DependentUpon>Rebocar_Cuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Ingresar_Resultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Ingresar_Resultados.Designer.cs">
+      <DependentUpon>Ingresar_Resultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Gestion_Eventos_Resultados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Gestion_Eventos_Resultados.Designer.cs">
+      <DependentUpon>Gestion_Eventos_Resultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Equipos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Equipos.Designer.cs">
+      <DependentUpon>Resultados_Equipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Individuales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Individuales.Designer.cs">
+      <DependentUpon>Resultados_Individuales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Eventos\Gestion_Eventos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Eventos\Gestion_Eventos.Designer.cs">
+      <DependentUpon>Gestion_Eventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Asignaciones.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Asignaciones.Designer.cs">
+      <DependentUpon>Gestion_Asignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Banners.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Banners.Designer.cs">
+      <DependentUpon>Gestion_Banners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Imagenes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Imagenes.Designer.cs">
+      <DependentUpon>Gestion_Imagenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportes.Designer.cs">
+      <DependentUpon>Gestion_Deportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportistas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportistas.Designer.cs">
+      <DependentUpon>Gestion_Deportistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Equipos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Equipos.Designer.cs">
+      <DependentUpon>Gestion_Equipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Integrantes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Integrantes.Designer.cs">
+      <DependentUpon>Gestion_Integrantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Otros\Gestion_Otros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Otros\Gestion_Otros.Designer.cs">
+      <DependentUpon>Gestion_Otros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Usuarios\Agregar_Editar_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Usuarios\Agregar_Editar_Usuarios.Designer.cs">
+      <DependentUpon>Agregar_Editar_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Usuarios\Gestion_Usuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Funciones\Superusuario\Usuarios\Gestion_Usuarios.Designer.cs">
+      <DependentUpon>Gestion_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Notificativo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Notificativo.Designer.cs">
+      <DependentUpon>Navegacion_Notificativo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Publicitario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Publicitario.Designer.cs">
+      <DependentUpon>Navegacion_Publicitario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Superusuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_superusuario.Designer.cs">
+      <DependentUpon>Navegacion_Superusuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5- BackOffice\Menu_Backoffice_Principal.Designer.cs">
+      <DependentUpon>Menu_Backoffice_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion_Aplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion_Aplicacion.Designer.cs">
+      <DependentUpon>Seleccion_Aplicacion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="4- Presentacion\Funciones\Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4- Presentacion\Menu_Publico_Principal.resx">
+      <DependentUpon>Menu_Publico_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Cuentas\Activar_Cuenta.resx">
+      <DependentUpon>Activar_Cuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Cuentas\Rebocar_Cuenta.resx">
+      <DependentUpon>Rebocar_Cuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Resultados\Ingresar_Resultados.resx">
+      <DependentUpon>Ingresar_Resultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Resultados\Gestion_Eventos_Resultados.resx">
+      <DependentUpon>Gestion_Eventos_Resultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Equipos.resx">
+      <DependentUpon>Resultados_Equipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Notificativo\Resultados\Resultados_Individuales.resx">
+      <DependentUpon>Resultados_Individuales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Publicitario\Eventos\Gestion_Eventos.resx">
+      <DependentUpon>Gestion_Eventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Asignaciones.resx">
+      <DependentUpon>Gestion_Asignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Banners.resx">
+      <DependentUpon>Gestion_Banners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Publicitario\Publicidad\Gestion_Imagenes.resx">
+      <DependentUpon>Gestion_Imagenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportes.resx">
+      <DependentUpon>Gestion_Deportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Deportistas.resx">
+      <DependentUpon>Gestion_Deportistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Equipos.resx">
+      <DependentUpon>Gestion_Equipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Deportes\Gestion_Integrantes.resx">
+      <DependentUpon>Gestion_Integrantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Otros\Gestion_Otros.resx">
+      <DependentUpon>Gestion_Otros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Usuarios\Agregar_Editar_Usuarios.resx">
+      <DependentUpon>Agregar_Editar_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Funciones\Superusuario\Usuarios\Gestion_Usuarios.resx">
+      <DependentUpon>Gestion_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Notificativo.resx">
+      <DependentUpon>Navegacion_Notificativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_Publicitario.resx">
+      <DependentUpon>Navegacion_Publicitario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Menu_Backoffice_Controles\Navegacion_superusuario.resx">
+      <DependentUpon>Navegacion_Superusuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5- BackOffice\Menu_Backoffice_Principal.resx">
+      <DependentUpon>Menu_Backoffice_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion_Aplicacion.resx">
+      <DependentUpon>Seleccion_Aplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="00- Recursos\disney-logo-castle.jpg" />
+    <Content Include="00- Recursos\f9aea1461e4d92fb3f736cdfc5c46.jpg" />
+    <Content Include="00- Recursos\f9aeea2a1461e4d92fb3f736cdfc5c46.jpg" />
+    <Content Include="00- Recursos\pajarito.png" />
+    <Content Include="00- Recursos\pepe.png" />
+    <Content Include="00- Recursos\trophy-png-25086.png" />
+    <None Include="Resources\desconectado.png" />
+    <None Include="Resources\Sin título.png" />
+    <None Include="Resources\trophy-png-25086.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
